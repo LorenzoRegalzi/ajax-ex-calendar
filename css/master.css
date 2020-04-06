@@ -16,7 +16,21 @@
 .main-calendar{
     background-color: grey;
 }
+.prec,
+.succ{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+.prec:disabled,
+.succ:disabled{
+    background-color: gray;
+    cursor: not-allowed;
 
+}
 ul li{
     text-transform: capitalize;
+}
+.festivo{
+    color:red;
 }
