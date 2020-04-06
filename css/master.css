@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-calendar,
+.main-calendar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: red;
+}
+
+.main-calendar{
+    background-color: grey;
+}
+
+ul li{
+    text-transform: capitalize;
+}
